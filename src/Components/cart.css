@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  background-color: #ec5800;
+}
+
+.navContainer {
+  height: 2rem;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-family: Bebas Neue;
+  font-size: 1.5rem;
+}
+.card {
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 300px;
+  height: 450px;
+  background-color: rgb(243, 243, 243);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 7px;
+  font-family: Bebas Neue;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.cart {
+  margin-left: auto;
+  padding: 30px;
+  cursor: pointer;
+}
+button {
+  background: rgb(255, 255, 255);
+  border: 1px solid black;
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  font-family: Bebas Neue;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #ec5800;
+  color: black;
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 5%;
+  width: 90%;
+  margin-top: 15px;
+}
